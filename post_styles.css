@@ -1,0 +1,94 @@
+
+h1{
+    color: rgba(156, 237, 7, 0.749);
+   margin-left: 200px;
+   margin-top: 100px;
+    
+}
+
+body {
+    background-color: rgb(73, 73, 69);
+}
+
+.posts {
+   width:  200px; 
+   height:50px;
+   background-color: rgba(239, 2, 2, 0.311);
+   outline:none;
+   border: none;
+   padding-left: 20px;
+  color:rgba(171, 185, 145, 0.749);
+}
+
+.p_title {
+    color: rgba(171, 185, 145, 0.507);
+    margin-left: 200px;
+    font-size: 20px;
+
+}
+.form {
+margin-left: 200px;
+margin-top: 100px;
+}
+
+
+.not_found {
+    margin-left: 200px;
+    color: red;
+    font-size: 30px;
+}
+
+
+.todos {
+    width:  200px; 
+    height:50px;
+    background-color: rgba(213, 14, 14, 0.239);
+    outline:none;
+    border: none;
+    padding-left: 20px;
+   color:rgba(158, 145, 185, 0.749);
+   font-size: 20px;
+}
+
+
+.albums {
+    width:  200px; 
+    height:50px;
+    background-color: rgba(7, 243, 176, 0.239);
+    outline:none;
+    border: none;
+    padding-left: 20px;
+   color:rgba(123, 181, 8, 0.749);
+   font-size: 20px;
+}
+
+
+.buttons {
+    display: flex;
+   justify-content: center;
+   gap: 15px;
+   
+}
+
+.buttons, .posts ,.albums,.todos  {
+ border-radius: 20%;
+}
+
+.btn {
+display: grid;
+margin-top: 50px;
+justify-content: center;
+
+
+}
+
+.btn_back {
+    width: 250px;
+    height: 40px;
+    outline:none;
+    border: none;
+    border-radius: 20%;
+    background-color: rgba(0, 255, 255, 0.356);
+    color: rgb(246, 182, 87);
+ 
+}
